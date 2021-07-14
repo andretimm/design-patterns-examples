@@ -1,0 +1,16 @@
+{
+  "name": "design-patterns-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andretimm/design-patterns-examples.git",
+  "author": "<andretimm2012@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start-factory": "tsnd --transpile-only --ignore-watch node_modules factory/index.ts",
+    "start-abstract-factory": "tsnd --transpile-only --ignore-watch node_modules abstract-factory/index.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}

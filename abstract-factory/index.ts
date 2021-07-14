@@ -1,8 +1,8 @@
-import { Mage } from "./characters/mage";
-import { Warrior } from "./characters/warrior";
-import { AbstractFactory } from "./interfaces/abstractFactory";
-import { IPotion } from "./potions/interface/potion";
-import { IWeapon } from "./weapons/interface/weapon";
+import { Mage } from "./src/characters/mage";
+import { Warrior } from "./src/characters/warrior";
+import { AbstractFactory } from "./src/interfaces/abstractFactory";
+import { IPotion } from "./src/potions/interface/potion";
+import { IWeapon } from "./src/weapons/interface/weapon";
 
 function client(factory: AbstractFactory) {
   const weapon: IWeapon = factory.createWeapon();
